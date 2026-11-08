@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Course Notes Index</title>
+<meta name="description" content="Week-by-week index of public university course materials, grouped by school and course, linking to the originals.">
+<style>
+  :root {
+    --bg: #fbfaf7; --fg: #1d1b26; --muted: #6b6878; --line: #e4e1ea;
+    --card: #ffffff; --accent: #4b2e83; --accent-soft: #efeaf8; --error: #a3282b;
+    --notes: #1f6f4a; --slides: #9a5b00; --board: #2f5d9e; --paper: #8a2f5c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15141a; --fg: #e8e6ee; --muted: #9a97a8; --line: #2b2935;
+      --card: #1d1c24; --accent: #b9a3ec; --accent-soft: #2a2438; --error: #f08a8c;
+      --notes: #6fd0a0; --slides: #f0b45c; --board: #8db4f0; --paper: #ec8fbd;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: 76px; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  a { color: var(--accent); }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 32px 16px 64px; }
+  .page-head h1 { margin: 0 0 4px; font-size: 1.8rem; letter-spacing: -0.01em; }
+  .page-head p { margin: 0 0 4px; color: var(--muted); }
+  nav.toc { margin-top: 20px; padding: 12px 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); }
+  nav.toc ul { margin: 0; padding-left: 18px; }
+  nav.toc > ul { padding-left: 0; list-style: none; }
+  nav.toc > ul > li + li { margin-top: 6px; }
+  nav.toc > ul > li > a { font-weight: 600; }
+  .bar { position: sticky; top: 0; z-index: 2; background: var(--bg); padding: 12px 0; border-bottom: 1px solid var(--line); margin-top: 16px; }
+  input[type=search] {
+    width: 100%; padding: 10px 12px; font: inherit; color: var(--fg);
+    background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+  }
+  input[type=search]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .school > h2 { font-size: 1.4rem; margin: 36px 0 0; padding-bottom: 6px; border-bottom: 2px solid var(--accent); }
+  .course-head { margin: 24px 0 4px; }
+  .course-head h3 { margin: 0; font-size: 1.15rem; }
+  .course-head p { margin: 2px 0 0; }
+  .grid { display: grid; grid-template-columns: repeat(var(--cols, 1), minmax(0, 1fr)); gap: 12px; }
+  .week { padding: 16px 0; border-bottom: 1px solid var(--line); }
+  .week h4 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 8px; }
+  .week h4 a { color: var(--muted); text-decoration: none; }
+  .summary { margin: -2px 0 10px; padding: 8px 12px; background: var(--accent-soft); border-radius: 6px; }
+  .cell { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+  .cell.upcoming { border-style: dashed; }
+  .cell.empty { display: flex; flex-direction: column; gap: 4px; }
+  .olabel { display: block; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); }
+  .date { font-size: 0.8rem; color: var(--muted); }
+  .topic { margin: 4px 0 10px; font-weight: 600; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    font-size: 0.82rem; text-decoration: none; padding: 3px 9px; border-radius: 999px;
+    border: 1px solid currentColor; color: var(--accent); overflow-wrap: anywhere;
+  }
+  .chip:hover { background: var(--accent-soft); }
+  .chip.notes { color: var(--notes); } .chip.slides { color: var(--slides); }
+  .chip.board { color: var(--board); } .chip.paper { color: var(--paper); }
+  .muted { color: var(--muted); font-size: 0.9rem; }
+  .error { color: var(--error); font-size: 0.9rem; }
+  .due { margin-top: 10px; font-size: 0.88rem; }
+  .due summary { cursor: pointer; color: var(--muted); }
+  .due ul { margin: 6px 0 0; padding-left: 18px; }
+  .due time { color: var(--muted); font-variant-numeric: tabular-nums; }
+  footer { margin-top: 32px; color: var(--muted); font-size: 0.85rem; }
+  .hidden { display: none; }
+  @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="page-head">
+    <h1>Course Notes</h1>
+    <p>Week-by-week lecture materials from {{COUNTS}}, with each course's offerings side by side.</p>
+    <p>All links go to the original course pages, and the materials belong to their course staff.</p>
+  </header>
+  <nav class="toc" aria-label="Schools and courses"><ul>{{TOC}}</ul></nav>
+  <div class="bar">
+    <input type="search" id="q" placeholder="Filter by topic, course or school, like paxos or 552" aria-label="Filter weeks">
+  </div>
+  <main>
+{{BODY}}
+  </main>
+  <p id="none" class="muted hidden">Nothing matches that filter.</p>
+  <footer>Unofficial index, not affiliated with any of the schools listed. Last rebuilt {{GENERATED}}.</footer>
+</div>
+<script>
+  const q = document.getElementById('q'), none = document.getElementById('none');
+  q.addEventListener('input', () => {
+    const terms = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+    let shown = 0;
+    document.querySelectorAll('.week').forEach(w => {
+      const hit = terms.every(t => w.dataset.search.includes(t));
+      w.classList.toggle('hidden', !hit);
+      shown += hit;
+    });
+    // Hide courses and schools left with no visible weeks.
+    for (const sel of ['.course', '.school']) {
+      document.querySelectorAll(sel).forEach(el =>
+        el.classList.toggle('hidden', terms.length > 0 && !el.querySelector('.week:not(.hidden)')));
+    }
+    none.classList.toggle('hidden', shown > 0);
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "schools": [
+    {
+      "id": "uw",
+      "name": "University of Washington",
+      "courses": [
+        {
+          "id": "uw-csep552",
+          "code": "CSEP 552",
+          "title": "Distributed Systems",
+          "offerings": [
+            {
+              "label": "Winter 2024",
+              "parser": "uw-createcal",
+              "calendar": "https://courses.cs.washington.edu/courses/csep552/24wi/schedule/",
+              "home": "https://courses.cs.washington.edu/courses/csep552/24wi/",
+              "dirs": [
+                {
+                  "url": "https://courses.cs.washington.edu/courses/csep552/24wi/notes/",
+                  "pattern": "^(\\d+)-.*\\.html$"
+                }
+              ]
+            },
+            {
+              "label": "Autumn 2026",
+              "parser": "uw-createcal",
+              "calendar": "https://courses.cs.washington.edu/courses/csep552/26au/calendar/calendar.html",
+              "home": "https://courses.cs.washington.edu/courses/csep552/26au/",
+              "dirs": [
+                {
+                  "url": "https://courses.cs.washington.edu/courses/csep552/26au/lectures/",
+                  "pattern": "^week(\\d+)-.*$"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
