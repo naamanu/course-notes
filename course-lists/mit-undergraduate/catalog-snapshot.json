@@ -1,0 +1,3423 @@
+{
+  "retrieved_on": "2026-11-08",
+  "degree_program": "6-3_2026",
+  "requirements_subjects_through": "Spring 2027",
+  "sources": {
+    "requirements": "https://eecsis.mit.edu/degree_requirements.pcgi?program=6-3",
+    "subject_catalog": "https://catalog.mit.edu/subjects/6/",
+    "degree_chart": "https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/",
+    "numbering": "https://www.eecs.mit.edu/academics/subject-numbering/"
+  },
+  "scope_notes": [
+    "All entries labeled U in the retrieved Course 6 catalog are retained, including EE, special subjects, and non-classroom subjects.",
+    "CS tracks retain graduate and undergraduate subjects; level is taken from live EECS annotations, not inferred from the course number.",
+    "Some track entries are unresolved in the live EECS lookup; their identifiers are retained with unknown level and null title.",
+    "Prerequisites and term fields are factual catalog metadata; terms include future-year dates as returned and do not prove a Fall 2026 offering.",
+    "Subject numbers have joint-listing [J] markers removed for consistent identifiers.",
+    "The selected CS inventory uses named CS/AI/math areas plus undergraduate CS track entries, not every possible elective."
+  ],
+  "counts": {
+    "undergraduate_course_6_entries": 225,
+    "cs_focused_inventory": 65,
+    "cs_tracks": 6
+  },
+  "undergraduate_course_6_subjects": [
+    {
+      "code": "6.1000",
+      "title": "Introduction to Programming and Computer Science",
+      "area": "Programming & Software Engineering",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: None",
+      "hours": "4-0-8 units. REST",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1000"
+    },
+    {
+      "code": "6.100A",
+      "title": "Introduction to Computer Science Programming in Python",
+      "area": "Programming & Software Engineering",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: None",
+      "hours": "2-0-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.100A"
+    },
+    {
+      "code": "6.100B",
+      "title": "Introduction to Computational Thinking and Data Science",
+      "area": "Programming & Software Engineering",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: 6.100A or permission of instructor",
+      "hours": "2-0-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.100B"
+    },
+    {
+      "code": "6.100L",
+      "title": "Introduction to Computer Science and Programming",
+      "area": "Programming & Software Engineering",
+      "level": "U",
+      "term_listing": "U (Fall, Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "2-0-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.100L"
+    },
+    {
+      "code": "6.1010",
+      "title": "Fundamentals of Programming",
+      "area": "Programming & Software Engineering",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: 6.1000 or ( 6.100A and ( 6.100B or 16.C20[J] ))",
+      "hours": "2-4-6 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1010"
+    },
+    {
+      "code": "6.1020",
+      "title": "Software Construction",
+      "area": "Programming & Software Engineering",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1010",
+      "hours": "3-0-12 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1020"
+    },
+    {
+      "code": "6.1040",
+      "title": "Software Design",
+      "area": "Programming & Software Engineering",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.1020 and 6.1200[J]",
+      "hours": "4-0-11 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1040"
+    },
+    {
+      "code": "6.1060",
+      "title": "Software Performance Engineering",
+      "area": "Programming & Software Engineering",
+      "level": "U",
+      "term_listing": "Acad Year 2027-2028: U (Spring) Acad Year 2028-2029: Not offered",
+      "prereq": "Prereq: 6.1020 , 6.1210 , and 6.1910",
+      "hours": "3-12-3 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1060"
+    },
+    {
+      "code": "6.5081",
+      "title": "Multicore Programming",
+      "area": "Programming & Software Engineering",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: 6.1210",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.5081"
+    },
+    {
+      "code": "6.1100",
+      "title": "Computer Language Engineering",
+      "area": "Programming Languages",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1020 and 6.1910",
+      "hours": "4-4-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1100"
+    },
+    {
+      "code": "6.1120",
+      "title": "Dynamic Computer Language Engineering",
+      "area": "Programming Languages",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.1020 or 6.1910",
+      "hours": "4-4-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1120"
+    },
+    {
+      "code": "6.5151",
+      "title": "Large-scale Symbolic Systems",
+      "area": "Programming Languages",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1010 or permission of instructor",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.5151"
+    },
+    {
+      "code": "6.1200",
+      "title": "Mathematics for Computer Science",
+      "area": "Theoretical Computer Science",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: Calculus I (GIR)",
+      "hours": "5-0-7 units. REST",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1200"
+    },
+    {
+      "code": "6.120A",
+      "title": "Discrete Mathematics and Proof for Computer Science",
+      "area": "Theoretical Computer Science",
+      "level": "U",
+      "term_listing": "U (Spring; second half of term)",
+      "prereq": "Prereq: Calculus I (GIR)",
+      "hours": "3-0-3 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.120A"
+    },
+    {
+      "code": "6.1210",
+      "title": "Introduction to Algorithms",
+      "area": "Theoretical Computer Science",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: 6.100A and ( 6.1200[J] or ( 6.120A and ( 6.3700 , 6.3800 , 18.05 , or 18.600 )))",
+      "hours": "5-0-7 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1210"
+    },
+    {
+      "code": "6.1220",
+      "title": "Design and Analysis of Algorithms",
+      "area": "Theoretical Computer Science",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: 6.1200[J] and 6.1210",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1220"
+    },
+    {
+      "code": "6.1400",
+      "title": "Computability and Complexity Theory",
+      "area": "Theoretical Computer Science",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: ( 6.1200[J] and 6.1210 ) or permission of instructor",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1400"
+    },
+    {
+      "code": "6.1420",
+      "title": "Fixed Parameter and Fine-grained Computation",
+      "area": "Theoretical Computer Science",
+      "level": "U",
+      "term_listing": "Acad Year 2027-2028: U (Fall) Acad Year 2028-2029: Not offered",
+      "prereq": "Prereq: 6.1200[J] , 6.1210 , and ( 6.1220[J] , 6.1400[J] , or 18.404 )",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1420"
+    },
+    {
+      "code": "6.1600",
+      "title": "Foundations of Computer Security",
+      "area": "Security & Cryptography",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: ( 6.1210 and ( 6.1800 or 6.1810 )) or permission of instructor",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1600"
+    },
+    {
+      "code": "6.1800",
+      "title": "Computer Systems Engineering",
+      "area": "Computer Systems",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1910",
+      "hours": "5-1-6 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1800"
+    },
+    {
+      "code": "6.1810",
+      "title": "Operating System Engineering",
+      "area": "Computer Systems",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.1910",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1810"
+    },
+    {
+      "code": "6.1820",
+      "title": "Mobile and Sensor Computing",
+      "area": "Computer Systems",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1800 or permission of instructor",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1820"
+    },
+    {
+      "code": "6.1830",
+      "title": "Software Systems for Data Science",
+      "area": "Computer Systems",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: 6.1000 or ( 6.100A , 6.100B , and 6.1210 )",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1830"
+    },
+    {
+      "code": "6.1850",
+      "title": "Computer Systems and Society",
+      "area": "Computer Systems",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.1800",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1850"
+    },
+    {
+      "code": "6.5821",
+      "title": "Computer Networks",
+      "area": "Computer Systems",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.1800 , 6.1810 , or permission of instructor",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.5821"
+    },
+    {
+      "code": "6.5831",
+      "title": "Database Systems",
+      "area": "Computer Systems",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: (( 6.1210 or 6.1220[J] ) and ( 6.1800 or 6.1810 )) or permission of instructor",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.5831"
+    },
+    {
+      "code": "6.1903",
+      "title": "Introduction to Low-level Programming in C and Assembly",
+      "area": "Computer Architecture",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: 6.100A",
+      "hours": "2-2-2 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1903"
+    },
+    {
+      "code": "6.1904",
+      "title": "Introduction to Low-level Programming in C and Assembly",
+      "area": "Computer Architecture",
+      "level": "U",
+      "term_listing": "U (Spring; second half of term)",
+      "prereq": "Prereq: 6.100A",
+      "hours": "2-2-2 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1904"
+    },
+    {
+      "code": "6.1910",
+      "title": "Computation Structures",
+      "area": "Computer Architecture",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: ( Physics II (GIR) , 6.100A , and ( 6.1903 or 6.1904 )) or permission of instructor",
+      "hours": "4-0-8 units. REST",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1910"
+    },
+    {
+      "code": "6.1920",
+      "title": "Constructive Computer Architecture",
+      "area": "Computer Architecture",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1910",
+      "hours": "3-8-1 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1920"
+    },
+    {
+      "code": "6.5931",
+      "title": "Hardware Architecture for Deep Learning",
+      "area": "Computer Architecture",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1910 and ( 6.3000 or 6.3900 )",
+      "hours": "3-3-6 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.5931"
+    },
+    {
+      "code": "6.5951",
+      "title": "Secure Hardware Design",
+      "area": "Computer Architecture",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1910",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.5951"
+    },
+    {
+      "code": "6.2000",
+      "title": "Electrical Circuits: Modeling and Design of Physical Systems",
+      "area": "Circuits & Applications",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: Physics II (GIR)",
+      "hours": "3-3-6 units. REST",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2000"
+    },
+    {
+      "code": "6.2020",
+      "title": "Electronics Project Laboratory",
+      "area": "Circuits & Applications",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: None",
+      "hours": "1-2-3 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2020"
+    },
+    {
+      "code": "6.2030",
+      "title": "Electronics First Laboratory",
+      "area": "Circuits & Applications",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: None. Coreq: Physics II (GIR)",
+      "hours": "4-4-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2030"
+    },
+    {
+      "code": "6.2040",
+      "title": "Analog Electronics Laboratory",
+      "area": "Circuits & Applications",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.2000",
+      "hours": "2-9-1 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2040"
+    },
+    {
+      "code": "6.2050",
+      "title": "Digital Systems Laboratory",
+      "area": "Circuits & Applications",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.1910 or permission of instructor",
+      "hours": "3-7-2 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2050"
+    },
+    {
+      "code": "6.2060",
+      "title": "Microcomputer Project Laboratory",
+      "area": "Circuits & Applications",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1910 , 6.2000 , or 6.3000",
+      "hours": "3-6-3 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2060"
+    },
+    {
+      "code": "6.2061",
+      "title": "Microcomputer Project Laboratory - Independent Inquiry",
+      "area": "Circuits & Applications",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1910 , 6.2000 , or 6.3000",
+      "hours": "3-9-3 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2061"
+    },
+    {
+      "code": "6.2080",
+      "title": "Semiconductor Electronic Circuits",
+      "area": "Circuits & Applications",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.2000",
+      "hours": "3-2-7 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2080"
+    },
+    {
+      "code": "6.2090",
+      "title": "Solid-State Circuits",
+      "area": "Circuits & Applications",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.2040 , 6.2080 , or permission of instructor",
+      "hours": "3-2-7 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2090"
+    },
+    {
+      "code": "6.2200",
+      "title": "Electric Energy Systems",
+      "area": "Energy",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.2000",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2200"
+    },
+    {
+      "code": "6.2210",
+      "title": "Electromagnetic Fields, Forces and Motion",
+      "area": "Energy",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: Physics II (GIR) and 18.03",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2210"
+    },
+    {
+      "code": "6.2220",
+      "title": "Power Electronics Laboratory",
+      "area": "Energy",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.2000 or 6.3000",
+      "hours": "3-6-3 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2220"
+    },
+    {
+      "code": "6.2221",
+      "title": "Power Electronics Laboratory - Independent Inquiry",
+      "area": "Energy",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.2000 or 6.3000",
+      "hours": "3-9-3 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2221"
+    },
+    {
+      "code": "6.2300",
+      "title": "Electromagnetics Waves and Applications",
+      "area": "Electromagnetics, Photonics, and Quantum",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: Calculus II (GIR) and Physics II (GIR)",
+      "hours": "3-5-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2300"
+    },
+    {
+      "code": "6.2320",
+      "title": "Silicon Photonics",
+      "area": "Electromagnetics, Photonics, and Quantum",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.2300 or 8.07",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2320"
+    },
+    {
+      "code": "6.2370",
+      "title": "Modern Optics Project Laboratory",
+      "area": "Electromagnetics, Photonics, and Quantum",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: 6.3000",
+      "hours": "3-5-4 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2370"
+    },
+    {
+      "code": "6.2400",
+      "title": "Introduction to Quantum Systems Engineering",
+      "area": "Electromagnetics, Photonics, and Quantum",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 18.06 or 18.C06[J]",
+      "hours": "4-2-6 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2400"
+    },
+    {
+      "code": "6.2410",
+      "title": "Quantum Engineering Platforms",
+      "area": "Electromagnetics, Photonics, and Quantum",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.2400 , 6.6400 , 18.435[J] , or ( 8.04 and 8.05 )",
+      "hours": "1-5-6 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2410"
+    },
+    {
+      "code": "6.6331",
+      "title": "Fundamentals of Photonics",
+      "area": "Electromagnetics, Photonics, and Quantum",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: 2.71 , 6.2300 , or 8.07",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.6331"
+    },
+    {
+      "code": "6.2500",
+      "title": "Nanoelectronics and Computing Systems",
+      "area": "Nanoelectronics & Nanotechnology",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.2000",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2500"
+    },
+    {
+      "code": "6.2530",
+      "title": "Introduction to Nanoelectronics",
+      "area": "Nanoelectronics & Nanotechnology",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: 6.3000",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2530"
+    },
+    {
+      "code": "6.2540",
+      "title": "Nanotechnology: From Atoms to Systems",
+      "area": "Nanoelectronics & Nanotechnology",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: Physics II (GIR)",
+      "hours": "2-3-7 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2540"
+    },
+    {
+      "code": "6.2600",
+      "title": "Micro/Nano Processing Technology",
+      "area": "Nanoelectronics & Nanotechnology",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: Calculus II (GIR) , Chemistry (GIR) , Physics II (GIR) , or permission of instructor",
+      "hours": "3-4-5 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2600"
+    },
+    {
+      "code": "6.3000",
+      "title": "Signal Processing",
+      "area": "Signal Processing",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: 6.100A",
+      "hours": "4-0-8 units. REST",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3000"
+    },
+    {
+      "code": "6.3010",
+      "title": "Signals, Systems and Inference",
+      "area": "Signal Processing",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.3000 and ( 6.3700 , 6.3800 , or 18.05 )",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3010"
+    },
+    {
+      "code": "6.3020",
+      "title": "Fundamentals of Music Processing",
+      "area": "Signal Processing",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.3000 and 21M.051",
+      "hours": "3-0-9 units. HASS-A",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3020"
+    },
+    {
+      "code": "6.3100",
+      "title": "Dynamical System Modeling and Control Design",
+      "area": "Control",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: Physics II (GIR) and ( 18.06 or 18.C06[J] )",
+      "hours": "4-4-4 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3100"
+    },
+    {
+      "code": "6.7120",
+      "title": "Principles of Modeling, Computing and Control for Decarbonized Electric Energy Systems",
+      "area": "Control",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.2200 , ( 6.2000 and 6.3100 ), or permission of instructor",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.7120"
+    },
+    {
+      "code": "6.3260",
+      "title": "Networks",
+      "area": "Optimization & Engineering Mathematics",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.3700 or 14.30",
+      "hours": "4-0-8 units. HASS-S",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3260"
+    },
+    {
+      "code": "6.3400",
+      "title": "Introduction to EECS via Communication Networks",
+      "area": "Communications",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: 6.100A",
+      "hours": "4-4-4 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3400"
+    },
+    {
+      "code": "6.7411",
+      "title": "Principles of Digital Communication",
+      "area": "Communications",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: ( 6.3000 , 6.3100 , or 6.3400 ) and ( 6.3700 , 6.3800 , or 18.05 )",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.7411"
+    },
+    {
+      "code": "6.3700",
+      "title": "Introduction to Probability",
+      "area": "Probability & Statistics",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: Calculus II (GIR)",
+      "hours": "4-0-8 units. REST",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3700"
+    },
+    {
+      "code": "6.3720",
+      "title": "Introduction to Statistical Data Analysis",
+      "area": "Probability & Statistics",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.100A and ( 6.3700 , 6.3800 , or 18.600 )",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3720"
+    },
+    {
+      "code": "6.3730",
+      "title": "Statistics, Computation and Applications",
+      "area": "Probability & Statistics",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: ( 6.100B , ( 18.03 , 18.06 , or 18.C06[J] ), and ( 6.3700 , 6.3800 , 14.30 , 16.09 , or 18.05 )) or permission of instructor",
+      "hours": "3-1-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3730"
+    },
+    {
+      "code": "6.3800",
+      "title": "Introduction to Inference",
+      "area": "Inference",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: Calculus II (GIR) or permission of instructor",
+      "hours": "4-4-4 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3800"
+    },
+    {
+      "code": "6.3900",
+      "title": "Introduction to Machine Learning",
+      "area": "Machine Learning",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: ( 6.1000 or 6.1210 ) and ( 18.03 or 18.06 )",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3900"
+    },
+    {
+      "code": "6.3930",
+      "title": "AI and Decision Making in Medicine: From Disease to Therapy",
+      "area": "Machine Learning",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.100A and 6.C01",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3930"
+    },
+    {
+      "code": "6.3950",
+      "title": "AI, Decision Making, and Society",
+      "area": "Machine Learning",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: None. Coreq: 6.1200[J] , 6.3700 , 6.3800 , 18.05 , or 18.600",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3950"
+    },
+    {
+      "code": "6.4110",
+      "title": "Representation, Inference, and Reasoning in AI",
+      "area": "Artificial Intelligence",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1010 , 6.1210 , and ( 6.3700 , 6.3800 , 18.05 , or 18.600 )",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4110"
+    },
+    {
+      "code": "6.4120",
+      "title": "Computational Cognitive Science",
+      "area": "Artificial Intelligence",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.3700 , 6.3800 , 9.40 , 18.05 , 6.3900 , or permission of instructor",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4120"
+    },
+    {
+      "code": "6.4130",
+      "title": "Principles of Autonomy and Decision Making",
+      "area": "Artificial Intelligence",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.100B , 6.1010 , 6.9080 , or permission of instructor",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4130"
+    },
+    {
+      "code": "6.4140",
+      "title": "The History of Artificial Intelligence",
+      "area": "Artificial Intelligence",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units. HASS-H",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4140"
+    },
+    {
+      "code": "6.4200",
+      "title": "Robotics: Science and Systems",
+      "area": "Robotics",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: (( 1.00 or 6.100A ) and ( 2.003[J] , 6.1010 , 6.1210 , or 16.06 )) or permission of instructor",
+      "hours": "2-6-4 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4200"
+    },
+    {
+      "code": "6.4210",
+      "title": "Robotic Manipulation",
+      "area": "Robotics",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: ( 6.100A and 6.3900 ) or permission of instructor",
+      "hours": "4-2-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4210"
+    },
+    {
+      "code": "6.4220",
+      "title": "Computational Motor Control",
+      "area": "Robotics",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.100A and ( Physics I (GIR) or 9.40 )",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4220"
+    },
+    {
+      "code": "6.4400",
+      "title": "Computer Graphics",
+      "area": "Graphics",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.1010 and ( 18.06 or 18.C06[J] )",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4400"
+    },
+    {
+      "code": "6.4420",
+      "title": "Computational Design and Fabrication",
+      "area": "Graphics",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: Calculus II (GIR) and ( 6.1010 or permission of instructor)",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4420"
+    },
+    {
+      "code": "6.4500",
+      "title": "Design for the Web: Languages and User Interfaces",
+      "area": "Human-Computer Interaction & Society",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: None. Coreq: 6.1010",
+      "hours": "2-2-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4500"
+    },
+    {
+      "code": "6.4510",
+      "title": "Engineering Interactive Technologies",
+      "area": "Human-Computer Interaction & Society",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: 6.1020 , 6.2050 , 6.2060 , 6.9010 , or permission of instructor",
+      "hours": "1-5-6 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4510"
+    },
+    {
+      "code": "6.4530",
+      "title": "Principles and Practice of Assistive Technology",
+      "area": "Human-Computer Interaction & Society",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "2-4-6 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4530"
+    },
+    {
+      "code": "6.4550",
+      "title": "Interactive Music Systems",
+      "area": "Human-Computer Interaction & Society",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: 6.1010 and ( 21M.051 , 21M.150 , or 21M.151 )",
+      "hours": "3-0-9 units. HASS-A",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4550"
+    },
+    {
+      "code": "6.4570",
+      "title": "Creating Video Games",
+      "area": "Human-Computer Interaction & Society",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.100A or CMS.301",
+      "hours": "3-3-6 units. HASS-A",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4570"
+    },
+    {
+      "code": "6.4590",
+      "title": "Foundations of Information Policy",
+      "area": "Human-Computer Interaction & Society",
+      "level": "U",
+      "term_listing": "Acad Year 2027-2028: U (Spring) Acad Year 2028-2029: Not offered",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "3-0-9 units. HASS-S",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4590"
+    },
+    {
+      "code": "6.4710",
+      "title": "Evolutionary Biology: Concepts, Models and Computation",
+      "area": "Computational Biology",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: ( 6.100A and 7.03 ) or permission of instructor",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4710"
+    },
+    {
+      "code": "6.8701",
+      "title": "Computational Biology: Genomes, Networks, Evolution",
+      "area": "Computational Biology",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: ( Biology (GIR) , 6.1210 , and 6.3700 ) or permission of instructor",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.8701"
+    },
+    {
+      "code": "6.8711",
+      "title": "Computational Systems Biology: Deep Learning in the Life Sciences",
+      "area": "Computational Biology",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: ( 6.100B and 7.05 ) or permission of instructor",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.8711"
+    },
+    {
+      "code": "6.8721",
+      "title": "Principles of Synthetic Biology",
+      "area": "Computational Biology",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.8721"
+    },
+    {
+      "code": "6.4800",
+      "title": "Biomedical Imaging with MRI: From Technology to Computation Applications",
+      "area": "Biomedical & Health",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: ( 18.C06[J] and ( 6.3000 or 16.002 )) or permission of instructor",
+      "hours": "2-3-7 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4800"
+    },
+    {
+      "code": "6.4810",
+      "title": "Cellular Neurophysiology and Computing",
+      "area": "Biomedical & Health",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: ( Physics II (GIR) , 18.03 , and ( 2.005 , 6.2000 , 6.3000 , 10.301 , or 20.110[J] )) or permission of instructor",
+      "hours": "5-2-5 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4810"
+    },
+    {
+      "code": "6.4820",
+      "title": "Quantitative and Clinical Physiology",
+      "area": "Biomedical & Health",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: Physics II (GIR) , 18.03 , or permission of instructor",
+      "hours": "4-2-6 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4820"
+    },
+    {
+      "code": "6.4830",
+      "title": "Fields, Forces and Flows in Biological Systems",
+      "area": "Biomedical & Health",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: Biology (GIR) , Physics II (GIR) , and 18.03",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4830"
+    },
+    {
+      "code": "6.4840",
+      "title": "Molecular, Cellular, and Tissue Biomechanics",
+      "area": "Biomedical & Health",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: Biology (GIR) and 18.03",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4840"
+    },
+    {
+      "code": "6.4850",
+      "title": "Multiphysics Systems Modeling",
+      "area": "Biomedical & Health",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 2.005 , 6.2210 , 20.330[J] , or permission of instructor",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4850"
+    },
+    {
+      "code": "6.4860",
+      "title": "Medical Device Design",
+      "area": "Biomedical & Health",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 2.008 , 6.2040 , 6.2050 , 6.2060 , 22.071 , or permission of instructor",
+      "hours": "3-3-6 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4860"
+    },
+    {
+      "code": "6.4880",
+      "title": "Biological Circuit Engineering Laboratory",
+      "area": "Biomedical & Health",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: Biology (GIR) and Calculus II (GIR)",
+      "hours": "2-8-2 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4880"
+    },
+    {
+      "code": "6.4900",
+      "title": "Introduction to EECS via Medical Technology",
+      "area": "Biomedical & Health",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: Calculus II (GIR) and Physics II (GIR)",
+      "hours": "4-4-4 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4900"
+    },
+    {
+      "code": "6.8801",
+      "title": "Biomedical Signal and Image Processing",
+      "area": "Biomedical & Health",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: ( 6.3700 or permission of instructor) and ( 2.004 , 6.3000 , 16.002 , or 18.085 )",
+      "hours": "3-1-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.8801"
+    },
+    {
+      "code": "6.4300",
+      "title": "Introduction to Computer Vision",
+      "area": "Vision",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.3900 , ( 18.06 or 18.C06[J] ), and ( 6.1200[J] , 6.3700 , 6.3800 , 18.05 , or 18.600 )",
+      "hours": "4-0-11 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4300"
+    },
+    {
+      "code": "6.S058",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Vision",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S058"
+    },
+    {
+      "code": "6.8301",
+      "title": "Advances in Computer Vision",
+      "area": "Vision",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: ( 6.1200[J] or 6.3700 ) and ( 18.06 or 18.C06[J] )",
+      "hours": "4-0-11 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.8301"
+    },
+    {
+      "code": "6.8371",
+      "title": "Digital and Computational Photography",
+      "area": "Vision",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: Calculus II (GIR) and 6.1010",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.8371"
+    },
+    {
+      "code": "6.4610",
+      "title": "Natural Language Processing",
+      "area": "Natural Language Processing & Speech",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.3900 , ( 6.3700 or 6.3800 ), and ( 18.06 or 18.C06[J] )",
+      "hours": "4-0-11 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4610"
+    },
+    {
+      "code": "6.8611",
+      "title": "Quantitative Methods for Natural Language Processing",
+      "area": "Natural Language Processing & Speech",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: 6.3900 and ( 18.06 or 18.C06[J] )",
+      "hours": "4-0-11 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.8611"
+    },
+    {
+      "code": "6.9000",
+      "title": "Engineering for Impact",
+      "area": "Cross-cutting EECS Subjects",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1910 , 6.2000 , and 6.3000",
+      "hours": "2-3-7 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9000"
+    },
+    {
+      "code": "6.9010",
+      "title": "Introduction to EECS via Interconnected Embedded Systems",
+      "area": "Cross-cutting EECS Subjects",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: 6.100A ; Coreq: Physics II (GIR)",
+      "hours": "1-5-6 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9010"
+    },
+    {
+      "code": "6.9040",
+      "title": "The History of Computing",
+      "area": "Cross-cutting EECS Subjects",
+      "level": "U",
+      "term_listing": "Acad Year 2027-2028: U (Fall) Acad Year 2028-2029: Not offered",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units. HASS-H",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9040"
+    },
+    {
+      "code": "6.9050",
+      "title": "Spirit, Power, Intelligence: The Epic History of Electricity and Electronics",
+      "area": "Cross-cutting EECS Subjects",
+      "level": "U",
+      "term_listing": "Acad Year 2027-2028: Not offered Acad Year 2028-2029: U (Spring)",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units. HASS-H",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9050"
+    },
+    {
+      "code": "6.9080",
+      "title": "Introduction to EECS via Robotics",
+      "area": "Cross-cutting EECS Subjects",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: 6.100A or permission of instructor",
+      "hours": "2-4-6 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9080"
+    },
+    {
+      "code": "6.UAR",
+      "title": "Seminar in Undergraduate Advanced Research",
+      "area": "Cross-cutting EECS Subjects",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "2-0-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.UAR"
+    },
+    {
+      "code": "6.UAT",
+      "title": "Oral Communication",
+      "area": "Cross-cutting EECS Subjects",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: None",
+      "hours": "3-0-6 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.UAT"
+    },
+    {
+      "code": "6.9101",
+      "title": "Introduction to Design Thinking and Innovation in Engineering",
+      "area": "Gordon Engineering Leadership Program",
+      "level": "U",
+      "term_listing": "U (Fall; partial term)",
+      "prereq": "Prereq: None",
+      "hours": "2-0-1 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9101"
+    },
+    {
+      "code": "6.910A",
+      "title": "Design Thinking and Innovation Leadership for Engineers",
+      "area": "Gordon Engineering Leadership Program",
+      "level": "U",
+      "term_listing": "U (Fall; partial term)",
+      "prereq": "Prereq: None",
+      "hours": "2-0-1 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.910A"
+    },
+    {
+      "code": "6.910B",
+      "title": "Design Thinking and Innovation Project",
+      "area": "Gordon Engineering Leadership Program",
+      "level": "U",
+      "term_listing": "U (Fall; partial term)",
+      "prereq": "Prereq: 6.910A",
+      "hours": "2-0-1 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.910B"
+    },
+    {
+      "code": "6.9110",
+      "title": "Engineering Leadership Lab",
+      "area": "Gordon Engineering Leadership Program",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: None. Coreq: 6.9120 ; or permission of instructor",
+      "hours": "0-2-1 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9110"
+    },
+    {
+      "code": "6.9120",
+      "title": "Engineering Leadership",
+      "area": "Gordon Engineering Leadership Program",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: None. Coreq: 6.9110 ; or permission of instructor",
+      "hours": "1-0-2 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9120"
+    },
+    {
+      "code": "6.9130",
+      "title": "Engineering Leadership Lab",
+      "area": "Gordon Engineering Leadership Program",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: 6.910A , 6.9110 , 6.9120 , or permission of instructor",
+      "hours": "0-2-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9130"
+    },
+    {
+      "code": "6.9140",
+      "title": "Fundamentals of Engineering Project Management",
+      "area": "Gordon Engineering Leadership Program",
+      "level": "U",
+      "term_listing": "U (IAP, Spring; first half of term)",
+      "prereq": "Prereq: None",
+      "hours": "1-0-5 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9140"
+    },
+    {
+      "code": "6.9160",
+      "title": "Engineering Innovation: Global Security Systems",
+      "area": "Gordon Engineering Leadership Program",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: None",
+      "hours": "3-3-6 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9160"
+    },
+    {
+      "code": "6.EPE",
+      "title": "UPOP Engineering Practice Experience",
+      "area": "Gordon Engineering Leadership Program",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: None",
+      "hours": "0-0-1 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.EPE"
+    },
+    {
+      "code": "6.EPW",
+      "title": "UPOP Engineering Practice Workshop",
+      "area": "Gordon Engineering Leadership Program",
+      "level": "U",
+      "term_listing": "U (IAP, Spring)",
+      "prereq": "Prereq: 2.EPE",
+      "hours": "1-0-0 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.EPW"
+    },
+    {
+      "code": "6.9310",
+      "title": "Patents, Copyrights, and the Law of Intellectual Property",
+      "area": "EECS & Beyond",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "2-0-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9310"
+    },
+    {
+      "code": "6.9320",
+      "title": "Ethics for Engineers",
+      "area": "EECS & Beyond",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: None",
+      "hours": "2-0-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9320"
+    },
+    {
+      "code": "6.9360",
+      "title": "Management in Engineering",
+      "area": "EECS & Beyond",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: None",
+      "hours": "3-1-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9360"
+    },
+    {
+      "code": "6.9500",
+      "title": "Introduction to MATLAB",
+      "area": "Independent Activities Period",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "1-0-2 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9500"
+    },
+    {
+      "code": "6.9510",
+      "title": "Introduction to Signals and Systems, and Feedback Control",
+      "area": "Independent Activities Period",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: Calculus II (GIR) or permission of instructor",
+      "hours": "2-2-2 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9510"
+    },
+    {
+      "code": "6.9520",
+      "title": "Introduction to Electrical Engineering Lab Skills",
+      "area": "Independent Activities Period",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "1-3-2 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9520"
+    },
+    {
+      "code": "6.9550",
+      "title": "Structure and Interpretation of Computer Programs",
+      "area": "Independent Activities Period",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "1-0-5 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9550"
+    },
+    {
+      "code": "6.9560",
+      "title": "Introduction to Software Engineering in Java",
+      "area": "Independent Activities Period",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "1-1-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9560"
+    },
+    {
+      "code": "6.9570",
+      "title": "Introduction to C and C++",
+      "area": "Independent Activities Period",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "3-3-0 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9570"
+    },
+    {
+      "code": "6.9600",
+      "title": "Mobile Autonomous Systems Laboratory: MASLAB",
+      "area": "Independent Activities Period",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "2-2-2 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9600"
+    },
+    {
+      "code": "6.9610",
+      "title": "The Battlecode Programming Competition",
+      "area": "Independent Activities Period",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: None",
+      "hours": "2-0-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9610"
+    },
+    {
+      "code": "6.9620",
+      "title": "Web Lab: A Web Programming Class and Competition",
+      "area": "Independent Activities Period",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "1-0-5 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9620"
+    },
+    {
+      "code": "6.9630",
+      "title": "Pokerbots Competition",
+      "area": "Independent Activities Period",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: None",
+      "hours": "1-0-5 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9630"
+    },
+    {
+      "code": "6.9800",
+      "title": "Independent Study in Electrical Engineering and Computer Science",
+      "area": "Non-classroom & Career",
+      "level": "U",
+      "term_listing": "U (Fall, IAP, Spring, Summer)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9800"
+    },
+    {
+      "code": "6.9820",
+      "title": "Practical Internship Experience",
+      "area": "Non-classroom & Career",
+      "level": "U",
+      "term_listing": "U (Fall, IAP, Spring, Summer)",
+      "prereq": "Prereq: None",
+      "hours": "0-1-0 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9820"
+    },
+    {
+      "code": "6.9850",
+      "title": "6-A Internship",
+      "area": "Non-classroom & Career",
+      "level": "U",
+      "term_listing": "U (Fall, Spring, Summer)",
+      "prereq": "Prereq: None",
+      "hours": "0-12-0 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9850"
+    },
+    {
+      "code": "6.9860",
+      "title": "Advanced 6-A Internship",
+      "area": "Non-classroom & Career",
+      "level": "U",
+      "term_listing": "U (Fall, Spring, Summer)",
+      "prereq": "Prereq: 6.9850",
+      "hours": "0-12-0 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.9860"
+    },
+    {
+      "code": "6.UR",
+      "title": "Undergraduate Research in Electrical Engineering and Computer Science",
+      "area": "Non-classroom & Career",
+      "level": "U",
+      "term_listing": "U (Fall, IAP, Spring, Summer)",
+      "prereq": "Prereq: None",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.UR"
+    },
+    {
+      "code": "6.S040",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S040"
+    },
+    {
+      "code": "6.S041",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S041"
+    },
+    {
+      "code": "6.S042",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S042"
+    },
+    {
+      "code": "6.S043",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S043"
+    },
+    {
+      "code": "6.S044",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S044"
+    },
+    {
+      "code": "6.S045",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S045"
+    },
+    {
+      "code": "6.S046",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S046"
+    },
+    {
+      "code": "6.S047",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S047"
+    },
+    {
+      "code": "6.S050",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S050"
+    },
+    {
+      "code": "6.S051",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S051"
+    },
+    {
+      "code": "6.S052",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "3-0-3 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S052"
+    },
+    {
+      "code": "6.S053",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S053"
+    },
+    {
+      "code": "6.S054",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S054"
+    },
+    {
+      "code": "6.S055",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S055"
+    },
+    {
+      "code": "6.S056",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall, Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S056"
+    },
+    {
+      "code": "6.S057",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: None",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S057"
+    },
+    {
+      "code": "6.S059",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Summer)",
+      "prereq": "Prereq: None",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S059"
+    },
+    {
+      "code": "6.S060",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S060"
+    },
+    {
+      "code": "6.S061",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S061"
+    },
+    {
+      "code": "6.S062",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S062"
+    },
+    {
+      "code": "6.S063",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S063"
+    },
+    {
+      "code": "6.S076",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Summer)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S076"
+    },
+    {
+      "code": "6.S077",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S077"
+    },
+    {
+      "code": "6.S078",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S078"
+    },
+    {
+      "code": "6.S079",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S079"
+    },
+    {
+      "code": "6.S080",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S080"
+    },
+    {
+      "code": "6.S081",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S081"
+    },
+    {
+      "code": "6.S082",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S082"
+    },
+    {
+      "code": "6.S083",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S083"
+    },
+    {
+      "code": "6.S084",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S084"
+    },
+    {
+      "code": "6.S085",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S085"
+    },
+    {
+      "code": "6.S086",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S086"
+    },
+    {
+      "code": "6.S087",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S087"
+    },
+    {
+      "code": "6.S088",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S088"
+    },
+    {
+      "code": "6.S089",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S089"
+    },
+    {
+      "code": "6.S090",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Summer)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S090"
+    },
+    {
+      "code": "6.S091",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S091"
+    },
+    {
+      "code": "6.S092",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S092"
+    },
+    {
+      "code": "6.S093",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S093"
+    },
+    {
+      "code": "6.S094",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S094"
+    },
+    {
+      "code": "6.S095",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S095"
+    },
+    {
+      "code": "6.S096",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S096"
+    },
+    {
+      "code": "6.S097",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S097"
+    },
+    {
+      "code": "6.S098",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S098"
+    },
+    {
+      "code": "6.S099",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Summer) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S099"
+    },
+    {
+      "code": "6.S102",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: None",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S102"
+    },
+    {
+      "code": "6.S103",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: None",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S103"
+    },
+    {
+      "code": "6.S104",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: None",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S104"
+    },
+    {
+      "code": "6.S105",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: None",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S105"
+    },
+    {
+      "code": "6.S180",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: None",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S180"
+    },
+    {
+      "code": "6.S181",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: None",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S181"
+    },
+    {
+      "code": "6.S182",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: None",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S182"
+    },
+    {
+      "code": "6.S183",
+      "title": "Special Laboratory Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S183"
+    },
+    {
+      "code": "6.S184",
+      "title": "Special Laboratory Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S184"
+    },
+    {
+      "code": "6.S185",
+      "title": "Special Laboratory Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S185"
+    },
+    {
+      "code": "6.S186",
+      "title": "Special Laboratory Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S186"
+    },
+    {
+      "code": "6.S187",
+      "title": "Special Laboratory Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S187"
+    },
+    {
+      "code": "6.S188",
+      "title": "Special Laboratory Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S188"
+    },
+    {
+      "code": "6.S189",
+      "title": "Special Laboratory Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S189"
+    },
+    {
+      "code": "6.S190",
+      "title": "Special Laboratory Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S190"
+    },
+    {
+      "code": "6.S191",
+      "title": "Special Laboratory Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S191"
+    },
+    {
+      "code": "6.S192",
+      "title": "Special Laboratory Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S192"
+    },
+    {
+      "code": "6.S193",
+      "title": "Special Laboratory Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S193"
+    },
+    {
+      "code": "6.S197",
+      "title": "Special Laboratory Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S197"
+    },
+    {
+      "code": "6.S193-6.S198",
+      "title": "Special Laboratory Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Fall, IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S193-6.S198"
+    },
+    {
+      "code": "6.S911",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S911"
+    },
+    {
+      "code": "6.S912",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S912"
+    },
+    {
+      "code": "6.S913",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S913"
+    },
+    {
+      "code": "6.S914",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S914"
+    },
+    {
+      "code": "6.S915",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S915"
+    },
+    {
+      "code": "6.S916",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S916"
+    },
+    {
+      "code": "6.S917",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S917"
+    },
+    {
+      "code": "6.S918",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S918"
+    },
+    {
+      "code": "6.S919",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Special Subjects",
+      "level": "U",
+      "term_listing": "U (IAP)",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "Units arranged [P/D/F]",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S919"
+    },
+    {
+      "code": "6.C01",
+      "title": "Modeling with Machine Learning: from Algorithms to Applications",
+      "area": "Common Ground for Computing Education",
+      "level": "U",
+      "term_listing": "U (Spring; first half of term)",
+      "prereq": "Prereq: Calculus II (GIR) and 6.100A ; Coreq: 1.C01[J] , 2.C01 , 3.C01[J] , 6.C011 , 7.C01 , 15.C01 , or 22.C01",
+      "hours": "2-0-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.C01"
+    },
+    {
+      "code": "6.C011",
+      "title": "Modeling with Machine Learning for Computer Science",
+      "area": "Common Ground for Computing Education",
+      "level": "U",
+      "term_listing": "U (Spring; second half of term)",
+      "prereq": "Prereq: 6.100A , 6.C01 , ( 6.1200[J] or 6.3700 ), and ( 18.06 or 18.C06[J] )",
+      "hours": "3-0-3 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.C011"
+    },
+    {
+      "code": "6.C06",
+      "title": "Linear Algebra and Optimization",
+      "area": "Common Ground for Computing Education",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: Calculus II (GIR)",
+      "hours": "5-0-7 units. REST",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.C06"
+    },
+    {
+      "code": "6.C25",
+      "title": "Real World Computation with Julia",
+      "area": "Common Ground for Computing Education",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.100A , 18.03 , and 18.06",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.C25"
+    },
+    {
+      "code": "6.C27",
+      "title": "Computational Imaging: Physics and Algorithms",
+      "area": "Common Ground for Computing Education",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 18.C06[J] and ( 1.00 , 1.000 , 2.086 , 3.019 , or 6.100A )",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.C27"
+    },
+    {
+      "code": "6.C31",
+      "title": "Hack Yourself: Data-Driven Learning and Wellbeing",
+      "area": "Common Ground for Computing Education",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.100A",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.C31"
+    },
+    {
+      "code": "6.C35",
+      "title": "Interactive Data Visualization and Society",
+      "area": "Common Ground for Computing Education",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: None",
+      "hours": "3-4-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.C35"
+    },
+    {
+      "code": "6.C395",
+      "title": "Algorithmic and Human Decision-Making",
+      "area": "Common Ground for Computing Education",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: ( 6.3900 or 6.C01 ) and ( 6.3700 , 14.30 , or 18.600 )",
+      "hours": "4-0-8 units. HASS-S",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.C395"
+    },
+    {
+      "code": "6.C40",
+      "title": "Ethics of Computing",
+      "area": "Common Ground for Computing Education",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units. HASS-H",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.C40"
+    },
+    {
+      "code": "6.C42",
+      "title": "AI Alignment: Moral, Political, and Computational Foundations",
+      "area": "Common Ground for Computing Education",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units. HASS-S",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.C42"
+    },
+    {
+      "code": "6.C571",
+      "title": "Optimization Methods",
+      "area": "Common Ground for Computing Education",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 18.C06[J] or permission of instructor",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.C571"
+    }
+  ],
+  "cs_tracks": [
+    {
+      "name": "[CS,EE] Architecture",
+      "subjects": [
+        {
+          "code": "6.1920",
+          "title": "Constructive Computer Architecture",
+          "old_number": "6.175",
+          "level": "U"
+        },
+        {
+          "code": "6.2050",
+          "title": "Digital Systems Laboratory",
+          "old_number": "6.111",
+          "level": "U"
+        },
+        {
+          "code": "6.2060",
+          "title": "Microcomputer Project Laboratory",
+          "old_number": "6.115",
+          "level": "U"
+        },
+        {
+          "code": "6.5890",
+          "title": null,
+          "old_number": "6.888",
+          "level": "unknown",
+          "metadata_status": "Not found in live EECS subject lookup"
+        },
+        {
+          "code": "6.5900",
+          "title": "Computer System Architecture",
+          "old_number": "6.823",
+          "level": "G"
+        },
+        {
+          "code": "6.5930",
+          "title": "Hardware Architecture for Deep Learning",
+          "old_number": "6.825",
+          "level": "G"
+        },
+        {
+          "code": "6.5931",
+          "title": "Hardware Architecture for Deep Learning",
+          "old_number": "6.812",
+          "level": "U"
+        },
+        {
+          "code": "6.5940",
+          "title": "TinyML and Efficient Deep Learning Computing",
+          "old_number": null,
+          "level": "G"
+        },
+        {
+          "code": "6.5951",
+          "title": "Secure Hardware Design",
+          "old_number": null,
+          "level": "U"
+        },
+        {
+          "code": "6.6040",
+          "title": "Digital Systems Laboratory II",
+          "old_number": null,
+          "level": "G"
+        }
+      ]
+    },
+    {
+      "name": "[CS] Computers and Society",
+      "subjects": [
+        {
+          "code": "6.1850",
+          "title": "Computer Systems and Society",
+          "old_number": "6.052",
+          "level": "U"
+        },
+        {
+          "code": "6.1852",
+          "title": "Computer Systems and Society",
+          "old_number": null,
+          "level": "G"
+        },
+        {
+          "code": "6.3950",
+          "title": "AI, Decision Making, and Society",
+          "old_number": "6.404",
+          "level": "U"
+        },
+        {
+          "code": "6.4590",
+          "title": "Foundations of Information Policy",
+          "old_number": "6.805",
+          "level": "U"
+        },
+        {
+          "code": "6.8530",
+          "title": "Interactive Data Visualization",
+          "old_number": "6.859",
+          "level": "G"
+        },
+        {
+          "code": "6.C35",
+          "title": "Interactive Data Visualization and Society",
+          "old_number": null,
+          "level": "U"
+        },
+        {
+          "code": "6.C395",
+          "title": "Algorithmic and Human Decision-Making",
+          "old_number": null,
+          "level": "U"
+        },
+        {
+          "code": "6.C85",
+          "title": "Interactive Data Visualization and Society",
+          "old_number": null,
+          "level": "G"
+        }
+      ]
+    },
+    {
+      "name": "[CS] Human Computer Interaction",
+      "subjects": [
+        {
+          "code": "6.1040",
+          "title": "Software Design",
+          "old_number": "6.170",
+          "level": "U"
+        },
+        {
+          "code": "6.4500",
+          "title": "Design for the Web: Languages and User Interfaces",
+          "old_number": null,
+          "level": "U"
+        },
+        {
+          "code": "6.4510",
+          "title": "Engineering Interactive Technologies",
+          "old_number": "6.810",
+          "level": "U"
+        },
+        {
+          "code": "6.4530",
+          "title": "Principles and Practice of Assistive Technology",
+          "old_number": "6.811",
+          "level": "U"
+        },
+        {
+          "code": "6.4550",
+          "title": "Interactive Music Systems",
+          "old_number": "6.185",
+          "level": "U"
+        },
+        {
+          "code": "6.8510",
+          "title": "Intelligent Multimodal User Interfaces",
+          "old_number": "6.835",
+          "level": "G"
+        },
+        {
+          "code": "6.8530",
+          "title": "Interactive Data Visualization",
+          "old_number": "6.859",
+          "level": "G"
+        },
+        {
+          "code": "6.C35",
+          "title": "Interactive Data Visualization and Society",
+          "old_number": null,
+          "level": "U"
+        },
+        {
+          "code": "6.C85",
+          "title": "Interactive Data Visualization and Society",
+          "old_number": null,
+          "level": "G"
+        }
+      ]
+    },
+    {
+      "name": "[CS] Programming Principles and Tools",
+      "subjects": [
+        {
+          "code": "6.1040",
+          "title": "Software Design",
+          "old_number": "6.170",
+          "level": "U"
+        },
+        {
+          "code": "6.1060",
+          "title": "Software Performance Engineering",
+          "old_number": "6.172",
+          "level": "U"
+        },
+        {
+          "code": "6.1100",
+          "title": "Computer Language Engineering",
+          "old_number": "6.035",
+          "level": "U"
+        },
+        {
+          "code": "6.1120",
+          "title": "Dynamic Computer Language Engineering",
+          "old_number": "6.818",
+          "level": "U"
+        },
+        {
+          "code": "6.5060",
+          "title": "Algorithm Engineering",
+          "old_number": "6.827",
+          "level": "G"
+        },
+        {
+          "code": "6.5080",
+          "title": "Multicore Programming",
+          "old_number": "6.836",
+          "level": "G"
+        },
+        {
+          "code": "6.5081",
+          "title": "Multicore Programming",
+          "old_number": "6.816",
+          "level": "U"
+        },
+        {
+          "code": "6.5110",
+          "title": "Foundations of Program Analysis",
+          "old_number": "6.820",
+          "level": "G"
+        },
+        {
+          "code": "6.5120",
+          "title": "Formal Reasoning About Programs",
+          "old_number": "6.822",
+          "level": "G"
+        }
+      ]
+    },
+    {
+      "name": "[CS] Systems",
+      "subjects": [
+        {
+          "code": "6.1600",
+          "title": "Foundations of Computer Security",
+          "old_number": "6.053",
+          "level": "U"
+        },
+        {
+          "code": "6.1810",
+          "title": "Operating System Engineering",
+          "old_number": "6.039",
+          "level": "U"
+        },
+        {
+          "code": "6.1820",
+          "title": "Mobile and Sensor Computing",
+          "old_number": "6.808",
+          "level": "U"
+        },
+        {
+          "code": "6.5610",
+          "title": "Applied Cryptography",
+          "old_number": "6.857",
+          "level": "G"
+        },
+        {
+          "code": "6.5660",
+          "title": "Computer Systems Security",
+          "old_number": "6.858",
+          "level": "G"
+        },
+        {
+          "code": "6.5810",
+          "title": "Operating System Engineering",
+          "old_number": "6.828",
+          "level": "G"
+        },
+        {
+          "code": "6.5820",
+          "title": "Computer Networks",
+          "old_number": "6.829",
+          "level": "G"
+        },
+        {
+          "code": "6.5821",
+          "title": "Computer Networks",
+          "old_number": null,
+          "level": "U"
+        },
+        {
+          "code": "6.5830",
+          "title": "Database Systems",
+          "old_number": "6.830",
+          "level": "G"
+        },
+        {
+          "code": "6.5831",
+          "title": "Database Systems",
+          "old_number": "6.814",
+          "level": "U"
+        },
+        {
+          "code": "6.5840",
+          "title": "Distributed Computer Systems Engineering",
+          "old_number": "6.824",
+          "level": "G"
+        },
+        {
+          "code": "6.5850",
+          "title": "Principles of Computer Systems",
+          "old_number": "6.826",
+          "level": "G"
+        }
+      ]
+    },
+    {
+      "name": "[CS] Theory",
+      "subjects": [
+        {
+          "code": "18.404",
+          "title": "Theory of Computation",
+          "old_number": null,
+          "level": "U"
+        },
+        {
+          "code": "6.1220",
+          "title": "Design and Analysis of Algorithms",
+          "old_number": "6.046",
+          "level": "U"
+        },
+        {
+          "code": "6.1400",
+          "title": "Computability and Complexity Theory",
+          "old_number": "6.045",
+          "level": "U"
+        },
+        {
+          "code": "6.1420",
+          "title": "Fixed Parameter and Fine-grained Computation",
+          "old_number": "6.054",
+          "level": "U"
+        },
+        {
+          "code": "6.5060",
+          "title": "Algorithm Engineering",
+          "old_number": "6.827",
+          "level": "G"
+        },
+        {
+          "code": "6.5210",
+          "title": "Advanced Algorithms",
+          "old_number": "6.854",
+          "level": "G"
+        },
+        {
+          "code": "6.5220",
+          "title": "Randomized Algorithms",
+          "old_number": "6.856",
+          "level": "G"
+        },
+        {
+          "code": "6.5230",
+          "title": "Advanced Data Structures",
+          "old_number": "6.851",
+          "level": "G"
+        },
+        {
+          "code": "6.5240",
+          "title": "Sublinear Time Algorithms",
+          "old_number": "6.855",
+          "level": "G"
+        },
+        {
+          "code": "6.5250",
+          "title": "Distributed Algorithms",
+          "old_number": "6.852",
+          "level": "G"
+        },
+        {
+          "code": "6.5310",
+          "title": "Geometric Folding Algorithms: Linkages, Origami, Polyhedra",
+          "old_number": "6.849",
+          "level": "G"
+        },
+        {
+          "code": "6.5320",
+          "title": "Geometric Computing",
+          "old_number": "6.850",
+          "level": "G"
+        },
+        {
+          "code": "6.5340",
+          "title": "Topics in Algorithmic Game Theory",
+          "old_number": "6.853",
+          "level": "G"
+        },
+        {
+          "code": "6.5350",
+          "title": "Matrix Multiplication and Graph Algorithms",
+          "old_number": "6.847",
+          "level": "G"
+        },
+        {
+          "code": "6.5360",
+          "title": "Algorithmic Statistics and Machine Learning",
+          "old_number": null,
+          "level": "G"
+        },
+        {
+          "code": "6.5370",
+          "title": null,
+          "old_number": "6.891",
+          "level": "unknown",
+          "metadata_status": "Not found in live EECS subject lookup"
+        },
+        {
+          "code": "6.5380",
+          "title": null,
+          "old_number": "6.892",
+          "level": "unknown",
+          "metadata_status": "Not found in live EECS subject lookup"
+        },
+        {
+          "code": "6.5390",
+          "title": null,
+          "old_number": "6.893",
+          "level": "unknown",
+          "metadata_status": "Not found in live EECS subject lookup"
+        },
+        {
+          "code": "6.5400",
+          "title": "Theory of Computation",
+          "old_number": "6.840",
+          "level": "G"
+        },
+        {
+          "code": "6.5410",
+          "title": "Advanced Complexity Theory",
+          "old_number": "6.841",
+          "level": "G"
+        },
+        {
+          "code": "6.5420",
+          "title": "Randomness and Computation",
+          "old_number": "6.842",
+          "level": "G"
+        },
+        {
+          "code": "6.5430",
+          "title": "Quantum Complexity Theory",
+          "old_number": "6.845",
+          "level": "G"
+        },
+        {
+          "code": "6.5480",
+          "title": null,
+          "old_number": "6.889",
+          "level": "unknown",
+          "metadata_status": "Not found in live EECS subject lookup"
+        },
+        {
+          "code": "6.5490",
+          "title": null,
+          "old_number": "6.890",
+          "level": "unknown",
+          "metadata_status": "Not found in live EECS subject lookup"
+        },
+        {
+          "code": "6.5620",
+          "title": "Foundations of Cryptography",
+          "old_number": "6.875",
+          "level": "G"
+        },
+        {
+          "code": "6.5630",
+          "title": "Advanced Topics in Cryptography",
+          "old_number": "6.876",
+          "level": "G"
+        },
+        {
+          "code": "6.6410",
+          "title": "Quantum Computation",
+          "old_number": "6.445",
+          "level": "G"
+        },
+        {
+          "code": "6.7980",
+          "title": "Topics in Multiagent Learning",
+          "old_number": null,
+          "level": "G"
+        }
+      ]
+    }
+  ],
+  "cs_focused_inventory": [
+    {
+      "code": "6.1000",
+      "title": "Introduction to Programming and Computer Science",
+      "area": "Programming & Software Engineering",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: None",
+      "hours": "4-0-8 units. REST",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1000"
+    },
+    {
+      "code": "6.100A",
+      "title": "Introduction to Computer Science Programming in Python",
+      "area": "Programming & Software Engineering",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: None",
+      "hours": "2-0-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.100A"
+    },
+    {
+      "code": "6.100B",
+      "title": "Introduction to Computational Thinking and Data Science",
+      "area": "Programming & Software Engineering",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: 6.100A or permission of instructor",
+      "hours": "2-0-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.100B"
+    },
+    {
+      "code": "6.100L",
+      "title": "Introduction to Computer Science and Programming",
+      "area": "Programming & Software Engineering",
+      "level": "U",
+      "term_listing": "U (Fall, Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "2-0-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.100L"
+    },
+    {
+      "code": "6.1010",
+      "title": "Fundamentals of Programming",
+      "area": "Programming & Software Engineering",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: 6.1000 or ( 6.100A and ( 6.100B or 16.C20[J] ))",
+      "hours": "2-4-6 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1010"
+    },
+    {
+      "code": "6.1020",
+      "title": "Software Construction",
+      "area": "Programming & Software Engineering",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1010",
+      "hours": "3-0-12 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1020"
+    },
+    {
+      "code": "6.1040",
+      "title": "Software Design",
+      "area": "Programming & Software Engineering",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.1020 and 6.1200[J]",
+      "hours": "4-0-11 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1040"
+    },
+    {
+      "code": "6.1060",
+      "title": "Software Performance Engineering",
+      "area": "Programming & Software Engineering",
+      "level": "U",
+      "term_listing": "Acad Year 2027-2028: U (Spring) Acad Year 2028-2029: Not offered",
+      "prereq": "Prereq: 6.1020 , 6.1210 , and 6.1910",
+      "hours": "3-12-3 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1060"
+    },
+    {
+      "code": "6.5081",
+      "title": "Multicore Programming",
+      "area": "Programming & Software Engineering",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: 6.1210",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.5081"
+    },
+    {
+      "code": "6.1100",
+      "title": "Computer Language Engineering",
+      "area": "Programming Languages",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1020 and 6.1910",
+      "hours": "4-4-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1100"
+    },
+    {
+      "code": "6.1120",
+      "title": "Dynamic Computer Language Engineering",
+      "area": "Programming Languages",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.1020 or 6.1910",
+      "hours": "4-4-4 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1120"
+    },
+    {
+      "code": "6.5151",
+      "title": "Large-scale Symbolic Systems",
+      "area": "Programming Languages",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1010 or permission of instructor",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.5151"
+    },
+    {
+      "code": "6.1200",
+      "title": "Mathematics for Computer Science",
+      "area": "Theoretical Computer Science",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: Calculus I (GIR)",
+      "hours": "5-0-7 units. REST",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1200"
+    },
+    {
+      "code": "6.120A",
+      "title": "Discrete Mathematics and Proof for Computer Science",
+      "area": "Theoretical Computer Science",
+      "level": "U",
+      "term_listing": "U (Spring; second half of term)",
+      "prereq": "Prereq: Calculus I (GIR)",
+      "hours": "3-0-3 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.120A"
+    },
+    {
+      "code": "6.1210",
+      "title": "Introduction to Algorithms",
+      "area": "Theoretical Computer Science",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: 6.100A and ( 6.1200[J] or ( 6.120A and ( 6.3700 , 6.3800 , 18.05 , or 18.600 )))",
+      "hours": "5-0-7 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1210"
+    },
+    {
+      "code": "6.1220",
+      "title": "Design and Analysis of Algorithms",
+      "area": "Theoretical Computer Science",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: 6.1200[J] and 6.1210",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1220"
+    },
+    {
+      "code": "6.1400",
+      "title": "Computability and Complexity Theory",
+      "area": "Theoretical Computer Science",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: ( 6.1200[J] and 6.1210 ) or permission of instructor",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1400"
+    },
+    {
+      "code": "6.1420",
+      "title": "Fixed Parameter and Fine-grained Computation",
+      "area": "Theoretical Computer Science",
+      "level": "U",
+      "term_listing": "Acad Year 2027-2028: U (Fall) Acad Year 2028-2029: Not offered",
+      "prereq": "Prereq: 6.1200[J] , 6.1210 , and ( 6.1220[J] , 6.1400[J] , or 18.404 )",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1420"
+    },
+    {
+      "code": "6.1600",
+      "title": "Foundations of Computer Security",
+      "area": "Security & Cryptography",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: ( 6.1210 and ( 6.1800 or 6.1810 )) or permission of instructor",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1600"
+    },
+    {
+      "code": "6.1800",
+      "title": "Computer Systems Engineering",
+      "area": "Computer Systems",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1910",
+      "hours": "5-1-6 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1800"
+    },
+    {
+      "code": "6.1810",
+      "title": "Operating System Engineering",
+      "area": "Computer Systems",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.1910",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1810"
+    },
+    {
+      "code": "6.1820",
+      "title": "Mobile and Sensor Computing",
+      "area": "Computer Systems",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1800 or permission of instructor",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1820"
+    },
+    {
+      "code": "6.1830",
+      "title": "Software Systems for Data Science",
+      "area": "Computer Systems",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: 6.1000 or ( 6.100A , 6.100B , and 6.1210 )",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1830"
+    },
+    {
+      "code": "6.1850",
+      "title": "Computer Systems and Society",
+      "area": "Computer Systems",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.1800",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1850"
+    },
+    {
+      "code": "6.5821",
+      "title": "Computer Networks",
+      "area": "Computer Systems",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.1800 , 6.1810 , or permission of instructor",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.5821"
+    },
+    {
+      "code": "6.5831",
+      "title": "Database Systems",
+      "area": "Computer Systems",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: (( 6.1210 or 6.1220[J] ) and ( 6.1800 or 6.1810 )) or permission of instructor",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.5831"
+    },
+    {
+      "code": "6.1903",
+      "title": "Introduction to Low-level Programming in C and Assembly",
+      "area": "Computer Architecture",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: 6.100A",
+      "hours": "2-2-2 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1903"
+    },
+    {
+      "code": "6.1904",
+      "title": "Introduction to Low-level Programming in C and Assembly",
+      "area": "Computer Architecture",
+      "level": "U",
+      "term_listing": "U (Spring; second half of term)",
+      "prereq": "Prereq: 6.100A",
+      "hours": "2-2-2 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1904"
+    },
+    {
+      "code": "6.1910",
+      "title": "Computation Structures",
+      "area": "Computer Architecture",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: ( Physics II (GIR) , 6.100A , and ( 6.1903 or 6.1904 )) or permission of instructor",
+      "hours": "4-0-8 units. REST",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1910"
+    },
+    {
+      "code": "6.1920",
+      "title": "Constructive Computer Architecture",
+      "area": "Computer Architecture",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1910",
+      "hours": "3-8-1 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.1920"
+    },
+    {
+      "code": "6.5931",
+      "title": "Hardware Architecture for Deep Learning",
+      "area": "Computer Architecture",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1910 and ( 6.3000 or 6.3900 )",
+      "hours": "3-3-6 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.5931"
+    },
+    {
+      "code": "6.5951",
+      "title": "Secure Hardware Design",
+      "area": "Computer Architecture",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1910",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.5951"
+    },
+    {
+      "code": "6.3700",
+      "title": "Introduction to Probability",
+      "area": "Probability & Statistics",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: Calculus II (GIR)",
+      "hours": "4-0-8 units. REST",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3700"
+    },
+    {
+      "code": "6.3720",
+      "title": "Introduction to Statistical Data Analysis",
+      "area": "Probability & Statistics",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.100A and ( 6.3700 , 6.3800 , or 18.600 )",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3720"
+    },
+    {
+      "code": "6.3730",
+      "title": "Statistics, Computation and Applications",
+      "area": "Probability & Statistics",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: ( 6.100B , ( 18.03 , 18.06 , or 18.C06[J] ), and ( 6.3700 , 6.3800 , 14.30 , 16.09 , or 18.05 )) or permission of instructor",
+      "hours": "3-1-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3730"
+    },
+    {
+      "code": "6.3800",
+      "title": "Introduction to Inference",
+      "area": "Inference",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: Calculus II (GIR) or permission of instructor",
+      "hours": "4-4-4 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3800"
+    },
+    {
+      "code": "6.3900",
+      "title": "Introduction to Machine Learning",
+      "area": "Machine Learning",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: ( 6.1000 or 6.1210 ) and ( 18.03 or 18.06 )",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3900"
+    },
+    {
+      "code": "6.3930",
+      "title": "AI and Decision Making in Medicine: From Disease to Therapy",
+      "area": "Machine Learning",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.100A and 6.C01",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3930"
+    },
+    {
+      "code": "6.3950",
+      "title": "AI, Decision Making, and Society",
+      "area": "Machine Learning",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: None. Coreq: 6.1200[J] , 6.3700 , 6.3800 , 18.05 , or 18.600",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.3950"
+    },
+    {
+      "code": "6.4110",
+      "title": "Representation, Inference, and Reasoning in AI",
+      "area": "Artificial Intelligence",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1010 , 6.1210 , and ( 6.3700 , 6.3800 , 18.05 , or 18.600 )",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4110"
+    },
+    {
+      "code": "6.4120",
+      "title": "Computational Cognitive Science",
+      "area": "Artificial Intelligence",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.3700 , 6.3800 , 9.40 , 18.05 , 6.3900 , or permission of instructor",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4120"
+    },
+    {
+      "code": "6.4130",
+      "title": "Principles of Autonomy and Decision Making",
+      "area": "Artificial Intelligence",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.100B , 6.1010 , 6.9080 , or permission of instructor",
+      "hours": "4-0-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4130"
+    },
+    {
+      "code": "6.4140",
+      "title": "The History of Artificial Intelligence",
+      "area": "Artificial Intelligence",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: None",
+      "hours": "3-0-9 units. HASS-H",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4140"
+    },
+    {
+      "code": "6.4200",
+      "title": "Robotics: Science and Systems",
+      "area": "Robotics",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: (( 1.00 or 6.100A ) and ( 2.003[J] , 6.1010 , 6.1210 , or 16.06 )) or permission of instructor",
+      "hours": "2-6-4 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4200"
+    },
+    {
+      "code": "6.4210",
+      "title": "Robotic Manipulation",
+      "area": "Robotics",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: ( 6.100A and 6.3900 ) or permission of instructor",
+      "hours": "4-2-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4210"
+    },
+    {
+      "code": "6.4220",
+      "title": "Computational Motor Control",
+      "area": "Robotics",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.100A and ( Physics I (GIR) or 9.40 )",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4220"
+    },
+    {
+      "code": "6.4400",
+      "title": "Computer Graphics",
+      "area": "Graphics",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.1010 and ( 18.06 or 18.C06[J] )",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4400"
+    },
+    {
+      "code": "6.4420",
+      "title": "Computational Design and Fabrication",
+      "area": "Graphics",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: Calculus II (GIR) and ( 6.1010 or permission of instructor)",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4420"
+    },
+    {
+      "code": "6.4500",
+      "title": "Design for the Web: Languages and User Interfaces",
+      "area": "Human-Computer Interaction & Society",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: None. Coreq: 6.1010",
+      "hours": "2-2-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4500"
+    },
+    {
+      "code": "6.4510",
+      "title": "Engineering Interactive Technologies",
+      "area": "Human-Computer Interaction & Society",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: 6.1020 , 6.2050 , 6.2060 , 6.9010 , or permission of instructor",
+      "hours": "1-5-6 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4510"
+    },
+    {
+      "code": "6.4530",
+      "title": "Principles and Practice of Assistive Technology",
+      "area": "Human-Computer Interaction & Society",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "2-4-6 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4530"
+    },
+    {
+      "code": "6.4550",
+      "title": "Interactive Music Systems",
+      "area": "Human-Computer Interaction & Society",
+      "level": "U",
+      "term_listing": "U (Fall, Spring)",
+      "prereq": "Prereq: 6.1010 and ( 21M.051 , 21M.150 , or 21M.151 )",
+      "hours": "3-0-9 units. HASS-A",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4550"
+    },
+    {
+      "code": "6.4570",
+      "title": "Creating Video Games",
+      "area": "Human-Computer Interaction & Society",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.100A or CMS.301",
+      "hours": "3-3-6 units. HASS-A",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4570"
+    },
+    {
+      "code": "6.4590",
+      "title": "Foundations of Information Policy",
+      "area": "Human-Computer Interaction & Society",
+      "level": "U",
+      "term_listing": "Acad Year 2027-2028: U (Spring) Acad Year 2028-2029: Not offered",
+      "prereq": "Prereq: Permission of instructor",
+      "hours": "3-0-9 units. HASS-S",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4590"
+    },
+    {
+      "code": "6.4300",
+      "title": "Introduction to Computer Vision",
+      "area": "Vision",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.3900 , ( 18.06 or 18.C06[J] ), and ( 6.1200[J] , 6.3700 , 6.3800 , 18.05 , or 18.600 )",
+      "hours": "4-0-11 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4300"
+    },
+    {
+      "code": "6.S058",
+      "title": "Special Subject in Electrical Engineering and Computer Science",
+      "area": "Vision",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: None",
+      "hours": "Units arranged",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.S058"
+    },
+    {
+      "code": "6.8301",
+      "title": "Advances in Computer Vision",
+      "area": "Vision",
+      "level": "U",
+      "term_listing": "U (Spring) Not offered regularly; consult department",
+      "prereq": "Prereq: ( 6.1200[J] or 6.3700 ) and ( 18.06 or 18.C06[J] )",
+      "hours": "4-0-11 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.8301"
+    },
+    {
+      "code": "6.8371",
+      "title": "Digital and Computational Photography",
+      "area": "Vision",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: Calculus II (GIR) and 6.1010",
+      "hours": "3-0-9 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.8371"
+    },
+    {
+      "code": "6.4610",
+      "title": "Natural Language Processing",
+      "area": "Natural Language Processing & Speech",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.3900 , ( 6.3700 or 6.3800 ), and ( 18.06 or 18.C06[J] )",
+      "hours": "4-0-11 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.4610"
+    },
+    {
+      "code": "6.8611",
+      "title": "Quantitative Methods for Natural Language Processing",
+      "area": "Natural Language Processing & Speech",
+      "level": "U",
+      "term_listing": "U (Fall) Not offered regularly; consult department",
+      "prereq": "Prereq: 6.3900 and ( 18.06 or 18.C06[J] )",
+      "hours": "4-0-11 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.8611"
+    },
+    {
+      "code": "6.2050",
+      "title": "Digital Systems Laboratory",
+      "area": "Circuits & Applications",
+      "level": "U",
+      "term_listing": "U (Fall)",
+      "prereq": "Prereq: 6.1910 or permission of instructor",
+      "hours": "3-7-2 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2050"
+    },
+    {
+      "code": "6.2060",
+      "title": "Microcomputer Project Laboratory",
+      "area": "Circuits & Applications",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: 6.1910 , 6.2000 , or 6.3000",
+      "hours": "3-6-3 units. Institute LAB",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.2060"
+    },
+    {
+      "code": "6.C35",
+      "title": "Interactive Data Visualization and Society",
+      "area": "Common Ground for Computing Education",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: None",
+      "hours": "3-4-8 units",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.C35"
+    },
+    {
+      "code": "6.C395",
+      "title": "Algorithmic and Human Decision-Making",
+      "area": "Common Ground for Computing Education",
+      "level": "U",
+      "term_listing": "U (Spring)",
+      "prereq": "Prereq: ( 6.3900 or 6.C01 ) and ( 6.3700 , 14.30 , or 18.600 )",
+      "hours": "4-0-8 units. HASS-S",
+      "catalog_url": "https://catalog.mit.edu/search/?P=6.C395"
+    },
+    {
+      "code": "18.404",
+      "title": "Theory of Computation",
+      "old_number": null,
+      "level": "U",
+      "area": "Cross-department track subjects",
+      "prereq": "See official subject listing",
+      "term_listing": "See official subject listing",
+      "hours": "",
+      "catalog_url": "https://catalog.mit.edu/search/?P=18.404"
+    }
+  ]
+}
